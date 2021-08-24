@@ -16,7 +16,7 @@ const Search = () => {
           palette: {
             type: "dark",
             primary: {
-              main: "#fff",
+              main: "#FFC107",
             },
           },
         });
@@ -65,12 +65,12 @@ const Search = () => {
 
           <Tabs value={type} 
           indicatorColor="primary" 
-          textColor="primary" 
+          textColor="#1E3163" 
           onChange={(event, newValue) => {
                setType(newValue);
                setPage(1);
              }} 
-          style={{ paddingBottom: 5 }}
+          style={{ paddingBottom: 8 , fontWeight: "1000"}}
           aria-label="disabled tabs example"
           >
                <Tab style={{ width: "50%" }} label="Search Movies" />
