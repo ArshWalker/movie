@@ -4,16 +4,19 @@
 
 .app {
   min-height: 100vh;
-  background-color: rgb(150, 33, 150);
+  /* background-color: rgb(150, 33, 150); */
+  
   color: white;
   padding-top: 130px;
   padding-bottom: 70px;
 }
 @media (max-width: 700px) {
   .app {
-    padding-top: 70px;
+    padding-top: 100px;
   }
 }
+
+
 
 .pageTitle {
   text-transform: uppercase;
@@ -24,6 +27,8 @@
   padding: 4px;
   border-radius: 50px;
   color: white;
+  letter-spacing: 5;
+  margin-bottom: 10px;
   
 }
 
@@ -32,3 +37,4 @@
     font-size: 6.4vw;
   }
 }
+
