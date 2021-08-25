@@ -2,10 +2,9 @@
    <img src="https://readme-typing-svg.herokuapp.com?color=45ffaa&size=40&width=900&height=80&lines=Welcome-to-Walker's-MovieWorld"/>
 </p>
 
-`This is a Movie App bulid using React.js, React hooks, States, axios, Material UI, API.`
+ ### `This is a Movie App bulid using React.js, React hooks, States, axios, Material UI, API.`
 
-## Sneak-peak
-
+## 👁 Sneak-peak 👁
 <img src="MovieWorld.png" />
 
 ## See Deployment
@@ -14,10 +13,7 @@
 
 
 # Getting Started with your own Create React App
-###
-`npx create-react-app my-app
-cd my-app
-npm start`
+### `npx create-react-app my-app cd my-app npm start`
 
 ## How to use this Repository
 
