@@ -2,7 +2,7 @@
    <img src="https://readme-typing-svg.herokuapp.com?color=45ffaa&size=40&width=900&height=80&lines=Welcome-to-Walker's-MovieWorld"/>
 </p>
 
- ### `This is a Movie App bulid using React.js, React hooks, States, axios, Material UI, API.`
+ `This is a Movie App bulid using React.js, React hooks, States, axios, Material UI, API.`
 
 ## 👁 Sneak-peak 👁
 <img src="MovieWorld.png" />
