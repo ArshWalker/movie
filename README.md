@@ -14,7 +14,7 @@
 
 
 # Getting Started with your own Create React App
-
+###
 `npx create-react-app my-app
 cd my-app
 npm start`
@@ -25,19 +25,19 @@ npm start`
 2. Before cloning, you need to have git in your local machine.
 3. clone the repo, by running this commmand in terminal.
 
-     `git clone https://github.com/ArshWalker/movie_world.git` 
+    ### `git clone https://github.com/ArshWalker/movie_world.git` 
 
 4. go to your project repository
 
-     `cd movie_world`
+    ### `cd movie_world`
 
 
 5. In the project directory, you can run:
 
-### `npm start`
+     ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+     Runs the app in the development mode.\
+     Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+     The page will reload if you make edits.\
+     You will also see any lint errors in the console.
