@@ -1,14 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
 .ContentModal__landscape {
   object-fit: contain;
   border-radius: 10px;
+  border-radius: 20px;
 }
 
 .ContentModal__portrait {
   display: none;
   object-fit: contain;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
 .tagline {
@@ -42,15 +43,18 @@
 }
 
 .ContentModal__title {
-  height: 32%;
-  font-size: 5vw;
+  /* margin-top: 2rem;
+  margin-bottom: 1.4rem; */
+  height: 22%;
+  font-size: 4vw;
   display: flex;
   align-items: center;
   justify-content: center;
-
+  font-family: "Rampart", sans-serif;
 }
 
 .ContentModal__description {
+  margin-top: 1rem;
   display: flex;
   height: 40%;
   overflow-y: scroll;
@@ -73,18 +77,24 @@
 		-20px -20px 60px #fff;
 } */
 
-.box.three {
+/* .box.three {
 	box-shadow: 
 		inset 20px 20px 60px -20px #000, 
 		inset -20px -20px 60px #39445a;
-}
+} */
 
+.box.three {
+	background: linear-gradient(145deg, #39445a, #39445a);
+	box-shadow: 
+		5px -10px 60px #000, 
+		-20px -20px 60px #39445a;
+}
 
 .ContentModal__description::-webkit-scrollbar {
   display: none;
 }
 
-@media (min-width: 835px) {
+@media (min-width: 885px) {
   .ContentModal__landscape {
     display: none;
   }
@@ -101,12 +111,17 @@
     width: 58%;
     padding: 0;
     height: 100%;
+    
   }
   .ContentModal__title {
+    margin-top: 2rem;
+    margin-bottom: 1.4rem;
      height: 12%;
+     /* margin-top: -3rem; */
     font-size: 3.5vw;
   }
   .ContentModal__description {
-    font-size: 22px;
+    font-size: 18px;
+    
   }
 }
