@@ -12,7 +12,7 @@
 [![Deploy with Vercel](https://vercel.com/button)](https://walkermovieworld.netlify.app/)
 
 
-# Getting Started with your own Create React App
+## Getting Started with your own Create React App
 ### `npx create-react-app my-app cd my-app npm start`
 
 ## How to use this Repository
